@@ -16,6 +16,11 @@ const meta: Meta = {
         type: 'text',
       },
     },
+    label: {
+      control: {
+        type: 'text',
+      },
+    },
   },
 };
 
