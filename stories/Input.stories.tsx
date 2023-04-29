@@ -6,14 +6,16 @@ const meta: Meta = {
   title: 'Input',
   component: Input,
   argTypes: {
-    children: {
+    placeholder: {
       control: {
         type: 'text',
       },
     },
-  },
-  parameters: {
-    controls: { expanded: true },
+    itemType: {
+      control: {
+        type: 'text',
+      },
+    },
   },
 };
 
